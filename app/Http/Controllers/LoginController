@@ -1,0 +1,8 @@
+class loginController extends Controller
+{
+    public function log(Request $request) {
+
+       echo $result["ID"];
+       echo $result["USERNAME"];
+    }
+}

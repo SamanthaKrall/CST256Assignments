@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Services\Data;
+
+class SecurityDAO {
+    function findByUser(UserModel $user){
+        $query = "select * from `users` where username = '$id' LIMIT 1";
+        $result = mysqli_query($connect, $query);
+        $user = null;
+        return $user;
+    }  
+}
